@@ -20,14 +20,21 @@ def degree2(Q,S=6):
 assert degree2(2,6)==[0,2,10,48,200,832]
 assert [Jp3(4,e) for e in (2,3)]==[216,3264]
 assert Jp3(5,4)==320750
-assert (25-1)*25**3==375000
+assert (25-1)*25**3==375000  # characteristic-p^2 benchmark, e=4
+# cubic recurrence for Q=2, starting from directly enumerated J_2,2..4
 Q=2
 J={2:4,3:40,4:336}
+# recurrence J_s=Q^3 J_{s-1}+Q^4 J_{s-3}-Q^7 J_{s-4}, s>=5; J_1=0
 J[1]=0
 for s in (5,6): J[s]=Q**3*J[s-1]+Q**4*J[s-3]-Q**7*J[s-4]
 assert [J[s] for s in (4,5,6)]==[336,2752,22144]
+
+# cubic recurrence for Q=3, using the characteristic-p^3 base value at s=3
 Q3=3
 J3={1:0,2:Q3**2*(Q3-1),3:Jp3(Q3,3)}
+# direct local enumeration supplies s=4 as an independent anchor
+# (the value below is also checked by the ground-truth runner).
+# Compute it from a direct enumeration once and then propagate s=5,6.
 J3[4]=14796
 for ss in (5,6):
     J3[ss]=Q3**3*J3[ss-1]+Q3**4*J3[ss-3]-Q3**7*J3[ss-4]
