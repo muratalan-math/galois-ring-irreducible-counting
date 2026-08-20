@@ -1,0 +1,11 @@
+p=5 n=1 v=0 got=1 expected=1
+p=5 n=1 v=1 got=5 expected=5
+p=5 n=2 v=0 got=55 expected=55
+p=5 n=2 v=1 got=275 expected=275
+p=5 n=3 v=0 got=6525 expected=6525
+p=5 n=3 v=1 got=32625 expected=32625
+p=7 n=1 v=0 got=1 expected=1
+p=7 n=1 v=1 got=7 expected=7
+p=7 n=2 v=0 got=154 expected=154
+p=7 n=2 v=1 got=1078 expected=1078
+ALL REFINED NONZERO-CURVE CHECKS PASSED

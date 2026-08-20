@@ -1,0 +1,26 @@
+### 2 3 2 2
+p=2 s=3 m=2 Q=4 degree=2 J_direct=216
+### 2 3 2 3
+p=2 s=3 m=2 Q=4 degree=3 J_direct=3264
+### 2 4 2 2
+p=2 s=4 m=2 Q=4 degree=2 J_direct=3648
+### 2 4 2 3
+p=2 s=4 m=2 Q=4 degree=3 J_direct=210176
+### 5 2 1 4
+root_bearing=125 quadratic_factor=25 rootfree_U=500 rootfree_qfac_B=0
+p=5 s=2 m=1 Q=5 degree=4 J_direct=500
+### 5 3 1 4
+root_bearing=65625 quadratic_factor=6875 rootfree_U=325000 rootfree_qfac_B=4250
+p=5 s=3 m=1 Q=5 degree=4 J_direct=320750
+### 7 2 1 4
+root_bearing=343 quadratic_factor=49 rootfree_U=2058 rootfree_qfac_B=0
+p=7 s=2 m=1 Q=7 degree=4 J_direct=2058
+### 7 3 1 4
+root_bearing=722701 quadratic_factor=52822 rootfree_U=5042100 rootfree_qfac_B=38073
+p=7 s=3 m=1 Q=7 degree=4 J_direct=5004027
+### 5 2 2 4
+root_bearing=15625 quadratic_factor=625 rootfree_U=375000 rootfree_qfac_B=0
+p=5 s=2 m=2 Q=25 degree=4 J_direct=375000
+### 5 4 1 4
+root_bearing=40328125 quadratic_factor=4059375 rootfree_U=203812500 rootfree_qfac_B=3106250
+p=5 s=4 m=1 Q=5 degree=4 J_direct=200706250

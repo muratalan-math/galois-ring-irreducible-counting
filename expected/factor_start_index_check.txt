@@ -1,0 +1,3 @@
+factor start-index symbolic check: PASS
+[T^12](D_D(T) G_D(T)) = Q**16*(Q - 1)*(2*Q**2 - Q + 1)/8
+convolution vanishes for s=13,...,24 reconstructed from exact decomposition

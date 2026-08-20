@@ -1,0 +1,13 @@
+scalar-path == matrix-path for Q in {5,7,25}, s in [2,40]: PASS
+driver (U_s,D_s,J) == brute-force ground truth (incl. new s=4): PASS
+driver J_{Q,3}(4) == characteristic-p^3 closed form: PASS
+
+Q  s   J_{Q,s}(4)
+5  2   500
+5  3   320750
+5  4   200706250
+5  5   125448250000
+5  8   30627081236816406250
+5  12  4673321722690150184631347656250
+5  13  2920826076681345074462890625000000
+5  20  108809250469555896322815959032857790589332580566406250

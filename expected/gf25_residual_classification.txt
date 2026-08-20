@@ -1,0 +1,3 @@
+GF(25) residual product counts: [1794, 12, 300, 12, 1]
+GF(25) expected counts: [1794, 12, 300, 12, 1]
+GF(25) FIVE-TYPE CLASSIFICATION PASSED

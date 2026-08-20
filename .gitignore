@@ -1,0 +1,22 @@
+# Build / run products
+_build/
+_run_outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# LaTeX or manuscript artifacts are intentionally not part of this code repository
+*.aux
+*.log
+*.out
+*.synctex.gz

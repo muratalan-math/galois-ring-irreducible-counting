@@ -1,0 +1,5 @@
+p=2 s=4 m=1 Q=2 degree=3 J_direct=336
+p=2 s=5 m=1 Q=2 degree=3 J_direct=2752
+p=2 s=6 m=1 Q=2 degree=3 J_direct=22144
+p=3 s=5 m=1 Q=3 degree=3 J_direct=400950
+p=3 s=6 m=1 Q=3 degree=3 J_direct=10830024

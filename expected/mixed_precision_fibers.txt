@@ -1,0 +1,23 @@
+coprime v=0: targets=125, fiber histogram 125:125
+coprime v=1: targets=625, fiber histogram 3125:625
+N e=1, r=0, v=0: base=5, refined=5, fibers 1:5
+  square normal-form image=5
+N e=1, r=1, v=0: base=61, refined=61, fibers 1:61
+  square normal-form image=61
+N e=1, r=2, v=0: base=1505, refined=1505, fibers 1:1505
+  square normal-form image=1505
+N e=1, r=3, v=0: base=37561, refined=37561, fibers 1:37561
+  square normal-form image=37561
+N e=1, r=0, v=1: base=5, refined=25, fibers 5:5
+N e=1, r=0, v=2: base=5, refined=125, fibers 25:5
+N e=1, r=1, v=1: base=61, refined=305, fibers 5:61
+N e=1, r=1, v=2: base=61, refined=1525, fibers 25:61
+N e=1, r=2, v=1: base=1505, refined=7525, fibers 5:1505
+N e=1, r=2, v=2: base=1505, refined=37625, fibers 25:1505
+N e=2, r=0, v=1: base=5, refined=25, fibers 5:5
+N e=2, r=0, v=2: base=5, refined=125, fibers 25:5
+N e=2, r=1, v=1: base=61, refined=305, fibers 5:61
+N e=2, r=1, v=2: base=61, refined=1525, fibers 25:61
+N e=2, r=2, v=1: base=1505, refined=7525, fibers 5:1505
+N e=2, r=2, v=2: base=1505, refined=37625, fibers 25:1505
+ALL MIXED-PRECISION LOCAL MAP CHECKS PASSED

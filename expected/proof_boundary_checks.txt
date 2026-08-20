@@ -1,0 +1,4 @@
+valuation min-gap sublemma (+reductions): PASS
+ramified minimum inequality: PASS
+repeated-basic minimum inequality: PASS
+overlap s=3 exact oriented fiber: PASS (100 targets, fiber=25)

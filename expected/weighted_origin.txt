@@ -1,0 +1,13 @@
+weighted origin Q=5 k=1
+  II-ne: 1125
+  II-eq: 50
+  ID: 0
+  DD-ne: 0
+  DD-same: 0
+weighted origin Q=5 k=2
+  II-ne: 140625
+  II-eq: 1250
+  ID: 125000
+  DD-ne: 20000
+  DD-same: 0
+ALL WEIGHTED-ORIGIN ENUMERATIONS PASSED

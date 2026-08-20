@@ -1,0 +1,9 @@
+Reference environment used for the archived expected outputs:
+Python 3.13.5
+SymPy 1.14.0
+g++ (Debian 14.2.0-19) 14.2.0
+C++ standard: C++17
+Build flags: -O3 -std=c++17
+
+The code is intended to be portable to recent Python 3 / SymPy and C++17
+implementations. The pinned versions above identify the archived reference run.
